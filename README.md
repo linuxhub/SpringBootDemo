@@ -9,6 +9,11 @@
 - Java Version: 8
 - Apache Maven: 3.5.3
 
+## 编译
+```
+mvn clean package
+```
+
 ## 运行
 ```
 docker-compose up -d
