@@ -1,0 +1,9 @@
+version: '3'
+services:
+  www-srv:
+    build: .
+    image: linuxhub_www:v1.0
+    container_name: linuxhub_www
+    restart: always
+    ports:
+      - "8088:8088"
