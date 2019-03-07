@@ -1,7 +1,7 @@
 # Java Demo 
 
-构架： Spring Boot
-生成： https://start.spring.io
+>构架： Spring Boot
+>生成： https://start.spring.io
 
 ## 环境版本
 - Maven Project
@@ -25,7 +25,7 @@ docker-compose up -d
 
 
 ## 创建数据库
-```
+```sql
 /* 创建 数据库 */
 CREATE DATABASE `test_www_db` CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 
@@ -58,5 +58,5 @@ INSERT INTO tb_user VALUES ('3','小王',"广州市海珠区")
 >前端地址: http://{ip}:8088/user.html
 
 >接口地址
-所有用户： http://{ip}:8088/user/userList
-删除用户： http://{ip}:8088/user/delete/{id}
+>所有用户： http://{ip}:8088/user/userList
+>删除用户： http://{ip}:8088/user/delete/{id}

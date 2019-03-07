@@ -2,7 +2,7 @@ version: '3'
 services:
   www-srv:
     build: .
-    image: linuxhub_www:v1.0
+    image: linuxhub_www:v1.1
     container_name: linuxhub_www
     restart: always
     ports:
